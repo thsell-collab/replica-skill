@@ -206,7 +206,7 @@ See `features.csv`. A coluna `notes` traz a origem ([EX], [CN]) e o motivo da pr
 
 Screens 28, flows 10, entities cerca de 20.
 Hard parts: (1) motor de planejamento (ciclo por pesos com mínimo e máximo de sessão, semana organizada, volta do ciclo), (2) motor de revisões (intervalos configuráveis, baterias do PDF, adiar, próxima automática), (3) conteúdo: editais, questões e lei seca, (4) sincronização offline do PWA com fuso de Brasília, (5) ranking e privacidade. Pagamento e acesso por assinatura ficam para depois, como combinado.
-Size: MVP (registro, cronômetro, ciclo, revisões, estatísticas, constância) = M. Produto completo com edital, questões e lei seca = L; o conteúdo pesa mais que o código.
+Size: MVP (registro, cronômetro, ciclo, revisões, estatísticas, constância, edital verticalizado com pedido de edital) = M a L; o edital pesa em conteúdo e em ferramenta de importação. Produto completo com edital, questões e lei seca = L; o conteúdo pesa mais que o código.
 
 ## Perguntas em aberto
 

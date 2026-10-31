@@ -27,9 +27,9 @@ Horas planejadas por matéria na semana,planejamento,must,yes,no,[EX]
 Ciclo de estudos gerado (blocos de duração padrão),planejamento,must,yes,no,[EX+CN]
 Cronograma semanal por dia (arrastar blocos),planejamento,should,yes,no,[EX] só descrito em áudio
 Semana organizada (blocos por dia disponível),planejamento,could,yes,no,[CN]
-Assistente guiado em 3 perguntas,planejamento,should,yes,no,[CN] depende do catálogo de editais
+Assistente guiado em 3 perguntas,planejamento,must,yes,no,[CN] depende do catálogo de editais | MVP: edital entra na primeira versão (decisão do usuário)
 Assistente passo a passo em 5 passos,planejamento,could,yes,no,[CN]
-Distribuição do tempo pelo peso da matéria no edital,planejamento,should,yes,no,[CN] peso = nº de questões do catálogo
+Distribuição do tempo pelo peso da matéria no edital,planejamento,must,yes,no,[CN] peso = nº de questões do catálogo | MVP: edital entra na primeira versão (decisão do usuário)
 Volta do ciclo e começar nova volta,planejamento,should,yes,no,[CN]
 Meta semanal de horas e de questões (batida a partir de 70%),metas,must,yes,no,[EX+CN]
 Dia de início da semana configurável,metas,should,yes,no,[EX]
@@ -55,13 +55,13 @@ Falsos positivos e falsos negativos,estatísticas,should,yes,no,[CN] diferencial
 Horas por dia da semana,estatísticas,could,yes,no,[CN]
 Termômetro de disciplina (30 dias) e recorde de dias seguidos,constância,must,yes,no,[EX]
 Mapa de calor de 6 meses,constância,should,yes,no,[CN]
-Catálogo de editais (criar o seu a partir de editais públicos),edital,should,yes,no,[CN] 105 editais deles são curadoria: não copiar
-Seguir edital e marcar tópicos (checklist),edital,should,yes,no,[CN] tela não observada
+Catálogo de editais (criar o seu a partir de editais públicos),edital,must,yes,no,[CN] 105 editais deles são curadoria: não copiar | MVP: edital entra na primeira versão (decisão do usuário)
+Seguir edital e marcar tópicos (checklist),edital,must,yes,no,[CN] tela não observada | MVP: edital entra na primeira versão (decisão do usuário)
 Sugerir o próximo tópico,edital,could,yes,no,[CN]
-Levar matérias do edital ao planejamento,edital,should,yes,no,[CN]
-Pedir edital que não existe,edital,should,yes,no,"ideia do usuário: fila, importação de PDF, aviso"
-Importar edital de PDF com revisão humana,edital,should,yes,no,ferramenta do administrador
-Painel administrativo de pedidos de edital,edital,should,yes,no,ideia do usuário
+Levar matérias do edital ao planejamento,edital,must,yes,no,[CN] | MVP: edital entra na primeira versão (decisão do usuário)
+Pedir edital que não existe,edital,must,yes,no,"ideia do usuário: fila, importação de PDF, aviso | MVP: edital entra na primeira versão (decisão do usuário)"
+Importar edital de PDF com revisão humana,edital,must,yes,no,ferramenta do administrador | MVP: edital entra na primeira versão (decisão do usuário)
+Painel administrativo de pedidos de edital,edital,must,yes,no,ideia do usuário | MVP: edital entra na primeira versão (decisão do usuário)
 "Radar de concursos (inscrições, prova, vagas)",concursos,could,yes,no,[CN] conteúdo curado a manter
 Alvos salvos a partir do radar,concursos,could,yes,no,[CN]
 Banco de questões com filtros e certeza/dúvida,questões,could,yes,no,[CN] sem conteúdo próprio não há o que filtrar
