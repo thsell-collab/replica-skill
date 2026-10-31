@@ -1,0 +1,83 @@
+feature,area,priority,original,clone,notes
+Criar conta e entrar com e-mail e senha,acesso,must,yes,no,[EX] checkout/validação de compra fica para depois
+Recuperar senha,acesso,must,yes,no,[EX] tela interna não observada
+"Primeiro acesso: nome de usuário, área e meta semanal",onboarding,must,yes,no,[EX]
+"Perfil público (foto, usuário, área)",perfil,should,yes,no,[EX] só usado pelo ranking
+Tema claro e escuro,aparência,should,yes,no,[EX+CN] salvo na conta ou no navegador: dúvida
+Menu lateral recolhível,navegação,must,yes,no,[EX]
+PWA instalável no celular,plataforma,must,yes,no,[CN] responsivo não observado
+Funcionar offline e sincronizar depois,plataforma,could,yes,no,"[CN] citado no FAQ, não visto"
+Fuso de Brasília em todas as datas,plataforma,must,yes,no,[CN]
+"Cadastrar matéria (nome, páginas, modalidade de revisão, lista de aulas)",matérias,must,yes,no,[EX]
+Submatérias e arquivar matéria,matérias,should,yes,no,[CN]
+Matérias sugeridas por carreira,matérias,should,yes,no,[CN] conteúdo próprio
+Matéria dentro ou fora do ciclo,matérias,must,yes,no,[CN]
+Registrar estudo: data matéria tarefa tempo comentário,registro,must,yes,no,[EX+CN]
+Tipos de tarefa: PDF videoaula questões lei seca flashcards resumo outro,registro,must,yes,no,[EX] CN usa Teoria Questões Revisão Simulado: unir
+"Campos por tipo (páginas, videoaula e parou em, questões e acertos)",registro,must,yes,no,[EX]
+Continuar de onde parei (preenche aula e página),registro,should,yes,no,[EX]
+Cronômetro com pausa e Finalizar que preenche o tempo,registro,must,yes,no,[EX+CN] segundos descartados no EX: decidir
+Cronômetro flutuante com troca de matéria,registro,must,yes,no,[CN]
+Modo foco em tela cheia,registro,should,yes,no,[CN]
+Lançar estudo esquecido (tempo e questões),registro,should,yes,no,[CN]
+Análise de confiança (certeza x dúvida) no registro,registro,should,yes,no,[CN]
+Aula concluída agenda revisões,registro,must,yes,no,[EX]
+Histórico com filtros e edição ou remoção,histórico,must,yes,no,[EX]
+Horas planejadas por matéria na semana,planejamento,must,yes,no,[EX]
+Ciclo de estudos gerado (blocos de duração padrão),planejamento,must,yes,no,[EX+CN]
+Cronograma semanal por dia (arrastar blocos),planejamento,should,yes,no,[EX] só descrito em áudio
+Semana organizada (blocos por dia disponível),planejamento,could,yes,no,[CN]
+Assistente guiado em 3 perguntas,planejamento,should,yes,no,[CN] depende do catálogo de editais
+Assistente passo a passo em 5 passos,planejamento,could,yes,no,[CN]
+Distribuição do tempo pelo peso da matéria no edital,planejamento,should,yes,no,[CN] peso = nº de questões do catálogo
+Volta do ciclo e começar nova volta,planejamento,should,yes,no,[CN]
+Meta semanal de horas e de questões (batida a partir de 70%),metas,must,yes,no,[EX+CN]
+Dia de início da semana configurável,metas,should,yes,no,[EX]
+"Alvo: data da prova e horas até ela, com mínimo diário",metas,should,yes,no,[CN]
+Revisão espaçada por tempo (intervalos editáveis),revisões,must,yes,no,[EX]
+Revisão espaçada por aulas (a cada N aulas),revisões,should,yes,no,[EX]
+Divisão do PDF em baterias de questões,revisões,could,yes,no,[EX] a regra da cola de questões não ficou clara
+"Fazer, adiar e editar revisão",revisões,must,yes,no,[EX]
+Próxima revisão automática a partir da data feita,revisões,must,yes,no,[EX]
+Alerta de revisões atrasadas na Home,revisões,must,yes,no,[EX]
+Caderno de erros com revisão 7/15/30 dias,revisões,should,yes,no,[CN]
+Motivo do erro e gráfico Por que você erra,revisões,should,yes,no,[CN]
+Grifar enunciado e marcar pegadinha,revisões,could,yes,no,[CN]
+"Visão geral: resumo de horas, questões, leitura e revisões",estatísticas,must,yes,no,[EX]
+Gráficos de horas e questões semanal e mensal com meta,estatísticas,must,yes,no,[EX+CN]
+Horas por matéria (hoje semana mês total) em pizza,estatísticas,must,yes,no,[EX]
+"Estatísticas por matéria (leitura, págs/h, horas restantes)",estatísticas,must,yes,no,[EX]
+Desempenho por aula ou assunto,estatísticas,should,yes,no,[EX]
+Horas por tipo de tarefa,estatísticas,should,yes,no,[EX]
+"Média por dia, máximo por dia e por semana",estatísticas,should,yes,no,[EX]
+Precisão por semana e ponto fraco (5+ questões),estatísticas,should,yes,no,[CN]
+Falsos positivos e falsos negativos,estatísticas,should,yes,no,[CN] diferencial do CN
+Horas por dia da semana,estatísticas,could,yes,no,[CN]
+Termômetro de disciplina (30 dias) e recorde de dias seguidos,constância,must,yes,no,[EX]
+Mapa de calor de 6 meses,constância,should,yes,no,[CN]
+Catálogo de editais (criar o seu a partir de editais públicos),edital,should,yes,no,[CN] 105 editais deles são curadoria: não copiar
+Seguir edital e marcar tópicos (checklist),edital,should,yes,no,[CN] tela não observada
+Sugerir o próximo tópico,edital,could,yes,no,[CN]
+Levar matérias do edital ao planejamento,edital,should,yes,no,[CN]
+Pedir edital que não existe,edital,should,yes,no,"ideia do usuário: fila, importação de PDF, aviso"
+Importar edital de PDF com revisão humana,edital,should,yes,no,ferramenta do administrador
+Painel administrativo de pedidos de edital,edital,should,yes,no,ideia do usuário
+"Radar de concursos (inscrições, prova, vagas)",concursos,could,yes,no,[CN] conteúdo curado a manter
+Alvos salvos a partir do radar,concursos,could,yes,no,[CN]
+Banco de questões com filtros e certeza/dúvida,questões,could,yes,no,[CN] sem conteúdo próprio não há o que filtrar
+Acervo de 14.896 questões oficiais,questões,skip,yes,skip,conteúdo de terceiros e curadoria: não copiar
+Resolver questões e mandar erros ao caderno,questões,could,yes,no,[CN] depende do acervo
+"Lei seca com lacunas, desafio e revisão de hoje",lei seca,could,yes,no,[CN] usar textos públicos; marcações de incidência são deles
+Leis mapeadas: incidência por artigo,lei seca,skip,yes,skip,[CN] depende do acervo de questões
+Flashcards por lei,lei seca,could,yes,no,[CN] plano Pro deles
+Notas com #tags,notas,could,yes,no,[CN] editor não observado
+"Ranking Top 10 de horas, constância e questões",social,could,yes,no,[EX] precisa de base de usuários e opt-in
+Painel do mentor com métricas dos alunos,social,could,yes,no,[CN] não observado
+Biblioteca de PDFs e cursos,conteúdo,skip,yes,skip,conteúdo do autor: não copiar
+Importar planilha do Guia,migração,skip,yes,skip,formato proprietário do curso
+Tutoriais em vídeo,ajuda,skip,yes,skip,conteúdo do autor
+FAQ e busca de ajuda,ajuda,should,yes,no,[CN] textos próprios
+Reportar bug dentro do app,ajuda,should,yes,no,[CN]
+Apagar todos os dados da conta,conta,should,yes,no,[EX] confirmação não observada
+"Checkout, assinatura e liberação de acesso",pagamento,could,yes,no,adiado por decisão do usuário
+Cupom por influenciador e relatório de vendas,pagamento,could,yes,no,adiado por decisão do usuário
