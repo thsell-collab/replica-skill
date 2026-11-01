@@ -1,20 +1,20 @@
 {
-  "_about": "Tokens do clone (placeholder sóbrio, sem nome nem marca). `accent` é só uma cor-papel: o replica-brand troca o valor depois. Verificar com contrast.py.",
+  "_about": "Tokens do clone. Marca provisória: Preto Carvão #171717, Verde Floresta #06110C e Vermelho Carmesim #A31C1B. Os nomes dos papéis ficam; só os valores mudam. Verificar com contrast.py.",
   "color": {
-    "bg": "#0d1217",
-    "surface": "#141b22",
-    "surface-2": "#1c252e",
-    "border": "#2a3641",
-    "border-input": "#7a8998",
-    "text": "#e8edf2",
-    "text-muted": "#a0acb8",
-    "accent": "#2fc4b2",
-    "on-accent": "#04201d",
-    "accent-soft": "#12403b",
-    "danger": "#ff8077",
-    "success": "#4cd694",
-    "warning": "#f2b04c",
-    "info": "#74b4ff"
+    "bg": "#06110C",
+    "surface": "#171717",
+    "surface-2": "#212322",
+    "border": "#2E3330",
+    "border-input": "#8A908C",
+    "text": "#F2F2F0",
+    "text-muted": "#A8ADAA",
+    "accent": "#E5605C",
+    "on-accent": "#171717",
+    "accent-soft": "#3A1B1A",
+    "danger": "#FF8F86",
+    "success": "#4CD694",
+    "warning": "#F2B04C",
+    "info": "#74B4FF"
   },
   "pairs": [
     [
@@ -54,7 +54,16 @@
       "surface"
     ],
     [
+      "accent",
+      "surface-2",
+      "ui"
+    ],
+    [
       "text",
+      "accent-soft"
+    ],
+    [
+      "accent",
       "accent-soft"
     ],
     [
@@ -106,20 +115,20 @@
     ]
   ],
   "series": [
-    "#0f766e",
+    "#A31C1B",
     "#3b5bdb",
-    "#c2410c",
-    "#7c3aed",
     "#b45309",
-    "#0e7490",
+    "#0f766e",
+    "#7c3aed",
+    "#475569",
     "#be185d",
     "#4d7c0f",
-    "#475569",
+    "#0e7490",
     "#a21caf"
   ],
   "shadow": {
-    "card": "0 1px 2px rgba(0,0,0,.5)",
-    "pop": "0 12px 32px rgba(0,0,0,.6)"
+    "card": "0 1px 2px rgba(0,0,0,.55)",
+    "pop": "0 12px 32px rgba(0,0,0,.65)"
   },
   "font": {
     "sans": "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
