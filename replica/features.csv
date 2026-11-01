@@ -5,7 +5,7 @@ Recuperar senha,acesso,must,yes,yes,[EX] tela interna não observada
 "Perfil público (foto, usuário, área)",perfil,should,yes,no,[EX] só usado pelo ranking
 Tema claro e escuro,aparência,should,yes,yes,[EX+CN] salvo na conta ou no navegador: dúvida
 Menu lateral recolhível,navegação,must,yes,yes,[EX]
-PWA instalável no celular,plataforma,must,yes,no,[CN] responsivo não observado
+PWA instalável no celular,plataforma,must,yes,yes,[CN] responsivo não observado
 Funcionar offline e sincronizar depois,plataforma,could,yes,no,"[CN] citado no FAQ, não visto"
 Fuso de Brasília em todas as datas,plataforma,must,yes,yes,[CN]
 "Cadastrar matéria (nome, páginas, modalidade de revisão, lista de aulas)",matérias,must,yes,yes,[EX]
@@ -23,7 +23,7 @@ Lançar estudo esquecido (tempo e questões),registro,should,yes,yes,[CN]
 Análise de confiança (certeza x dúvida) no registro,registro,should,yes,yes,[CN]
 Aula concluída agenda revisões,registro,must,yes,yes,[EX]
 Histórico com filtros e edição ou remoção,histórico,must,yes,yes,[EX]
-Horas planejadas por matéria na semana,planejamento,must,yes,no,[EX]
+Horas planejadas por matéria na semana,planejamento,must,yes,yes,[EX]
 Ciclo de estudos gerado (blocos de duração padrão),planejamento,must,yes,yes,[EX+CN]
 Cronograma semanal por dia (arrastar blocos),planejamento,should,yes,no,[EX] só descrito em áudio
 Semana organizada (blocos por dia disponível),planejamento,could,yes,no,[CN]
@@ -34,7 +34,7 @@ Volta do ciclo e começar nova volta,planejamento,should,yes,yes,[CN]
 Meta semanal de horas e de questões (batida a partir de 70%),metas,must,yes,yes,[EX+CN]
 Dia de início da semana configurável,metas,should,yes,yes,[EX]
 "Alvo: data da prova e horas até ela, com mínimo diário",metas,should,yes,yes,[CN]
-Revisão espaçada por tempo (intervalos editáveis),revisões,must,yes,no,[EX]
+Revisão espaçada por tempo (intervalos editáveis),revisões,must,yes,yes,[EX]
 Revisão espaçada por aulas (a cada N aulas),revisões,should,yes,yes,[EX]
 Divisão do PDF em baterias de questões,revisões,could,yes,yes,[EX] a regra da cola de questões não ficou clara
 "Fazer, adiar e editar revisão",revisões,must,yes,yes,[EX]
@@ -53,14 +53,14 @@ Horas por tipo de tarefa,estatísticas,should,yes,yes,[EX]
 Precisão por semana e ponto fraco (5+ questões),estatísticas,should,yes,yes,[CN]
 Falsos positivos e falsos negativos,estatísticas,should,yes,yes,[CN] diferencial do CN
 Horas por dia da semana,estatísticas,could,yes,yes,[CN]
-Termômetro de disciplina (30 dias) e recorde de dias seguidos,constância,must,yes,no,[EX]
+Termômetro de disciplina (30 dias) e recorde de dias seguidos,constância,must,yes,yes,[EX]
 Mapa de calor de 6 meses,constância,should,yes,yes,[CN]
 Catálogo de editais (criar o seu a partir de editais públicos),edital,must,yes,yes,[CN] 105 editais deles são curadoria: não copiar | MVP: edital entra na primeira versão (decisão do usuário)
 Seguir edital e marcar tópicos (checklist),edital,must,yes,yes,[CN] tela não observada | MVP: edital entra na primeira versão (decisão do usuário)
 Sugerir o próximo tópico,edital,could,yes,no,[CN]
 Levar matérias do edital ao planejamento,edital,must,yes,yes,[CN] | MVP: edital entra na primeira versão (decisão do usuário)
 Pedir edital que não existe,edital,must,yes,yes,"ideia do usuário: fila, importação de PDF, aviso | MVP: edital entra na primeira versão (decisão do usuário)"
-Importar edital de PDF com revisão humana,edital,must,yes,no,ferramenta do administrador | MVP: edital entra na primeira versão (decisão do usuário)
+Importar edital de PDF com revisão humana,edital,must,yes,yes,ferramenta do administrador | MVP: edital entra na primeira versão (decisão do usuário)
 Painel administrativo de pedidos de edital,edital,must,yes,yes,ideia do usuário | MVP: edital entra na primeira versão (decisão do usuário)
 "Radar de concursos (inscrições, prova, vagas)",concursos,could,yes,no,[CN] conteúdo curado a manter
 Alvos salvos a partir do radar,concursos,could,yes,no,[CN]
