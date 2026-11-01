@@ -139,10 +139,13 @@ Escritos como funções puras, com testes, porque são o coração do produto e 
 8. **Cobrança e afiliados:** checkout, `entitlements`, cupons por influenciador. Por decisão sua, depois do app pronto.
 9. **Correções do `replica-entrepreneur`**, depois que ele rodar.
 
-## Perguntas que mudam o schema
+## Decisões fechadas
 
-1. "Finalizar" do cronômetro descarta segundos ou arredonda? (Exemplifica descarta; recomendo arredondar para cima a partir de 30 s.)
-2. Páginas lidas = fim - início + 1, ou só a página final?
+1. Ao finalizar o cronômetro, os segundos são **arredondados** para o minuto mais próximo (a partir de 30 s sobe). Um trecho de menos de 30 s vira 0 e não gera registro.
+2. Páginas lidas = página final - página inicial + 1 por registro de PDF.
+
+## Perguntas em aberto
+
 3. A tela do ciclo gerado é editável (arrastar entre dias, mudar minutos)? Se sim, `plan_slots` precisa de histórico de mudanças.
 4. Pedido de edital: o usuário vê quantas pessoas pediram o mesmo? (As tabelas já suportam.)
 5. Quem é admin no começo: só você? Se houver equipe, é preciso um papel de "revisor de edital" separado.

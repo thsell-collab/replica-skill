@@ -1,0 +1,199 @@
+{
+  "_about": "Tokens do clone (placeholder sóbrio, sem nome nem marca). `accent` é só uma cor-papel: o replica-brand troca o valor depois. Verificar com contrast.py.",
+  "color": {
+    "bg": "#0d1217",
+    "surface": "#141b22",
+    "surface-2": "#1c252e",
+    "border": "#2a3641",
+    "border-input": "#7a8998",
+    "text": "#e8edf2",
+    "text-muted": "#a0acb8",
+    "accent": "#2fc4b2",
+    "on-accent": "#04201d",
+    "accent-soft": "#12403b",
+    "danger": "#ff8077",
+    "success": "#4cd694",
+    "warning": "#f2b04c",
+    "info": "#74b4ff"
+  },
+  "pairs": [
+    [
+      "text",
+      "bg"
+    ],
+    [
+      "text",
+      "surface"
+    ],
+    [
+      "text",
+      "surface-2"
+    ],
+    [
+      "text-muted",
+      "bg"
+    ],
+    [
+      "text-muted",
+      "surface"
+    ],
+    [
+      "text-muted",
+      "surface-2"
+    ],
+    [
+      "on-accent",
+      "accent"
+    ],
+    [
+      "accent",
+      "bg"
+    ],
+    [
+      "accent",
+      "surface"
+    ],
+    [
+      "text",
+      "accent-soft"
+    ],
+    [
+      "danger",
+      "bg"
+    ],
+    [
+      "danger",
+      "surface"
+    ],
+    [
+      "success",
+      "bg"
+    ],
+    [
+      "success",
+      "surface"
+    ],
+    [
+      "warning",
+      "bg"
+    ],
+    [
+      "warning",
+      "surface"
+    ],
+    [
+      "info",
+      "bg"
+    ],
+    [
+      "info",
+      "surface"
+    ],
+    [
+      "border-input",
+      "bg",
+      "ui"
+    ],
+    [
+      "border-input",
+      "surface",
+      "ui"
+    ],
+    [
+      "accent",
+      "bg",
+      "ui"
+    ]
+  ],
+  "series": [
+    "#0f766e",
+    "#3b5bdb",
+    "#c2410c",
+    "#7c3aed",
+    "#b45309",
+    "#0e7490",
+    "#be185d",
+    "#4d7c0f",
+    "#475569",
+    "#a21caf"
+  ],
+  "shadow": {
+    "card": "0 1px 2px rgba(0,0,0,.5)",
+    "pop": "0 12px 32px rgba(0,0,0,.6)"
+  },
+  "font": {
+    "sans": "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
+    "display": "Manrope, Inter, system-ui, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, monospace"
+  },
+  "type": {
+    "xs": {
+      "size": 12,
+      "line": 16,
+      "weight": 500
+    },
+    "sm": {
+      "size": 14,
+      "line": 20,
+      "weight": 400
+    },
+    "base": {
+      "size": 16,
+      "line": 24,
+      "weight": 400
+    },
+    "lg": {
+      "size": 20,
+      "line": 28,
+      "weight": 600
+    },
+    "xl": {
+      "size": 28,
+      "line": 34,
+      "weight": 700
+    },
+    "display": {
+      "size": 40,
+      "line": 44,
+      "weight": 700
+    },
+    "num": {
+      "size": 32,
+      "line": 36,
+      "weight": 700
+    }
+  },
+  "space": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radius": {
+    "sm": 6,
+    "md": 10,
+    "lg": 16,
+    "pill": 999
+  },
+  "layout": {
+    "sidebar": 248,
+    "sidebar-collapsed": 72,
+    "content-max": 1200,
+    "header": 56,
+    "breakpoints": {
+      "sm": 640,
+      "md": 900,
+      "lg": 1200
+    }
+  },
+  "motion": {
+    "fast": "120ms",
+    "base": "200ms",
+    "ease": "cubic-bezier(.2,.8,.2,1)"
+  }
+}
